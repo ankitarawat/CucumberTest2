@@ -4,6 +4,6 @@ import cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@Cucumber.Options(format={"pretty","html:reports/test-report"},tags= "@smokeTest")
+@Cucumber.Options(format={"pretty","html:reports/test-report", "json:target/cucumber.json"},tags= "@smokeTest")
 public class runner {
 }
