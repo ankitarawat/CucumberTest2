@@ -2,7 +2,7 @@
 Feature: To test my cucumber test is running
 I want to run a sample feature file.
 
-Scenario: cucumber setup
+Scenario: tag test
 
 Given i am on homepage
 When I open contact page	
