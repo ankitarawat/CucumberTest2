@@ -12,6 +12,6 @@ import cucumber.api.junit.Cucumber; */
 
 @RunWith(Cucumber.class)
 
-@Cucumber.Options(format={"pretty", "html:target/cucumber","json:target/cucumber.json"})
+@Cucumber.Options(format={"pretty", "html:target/cucumber","json:target/cucumber.json"},tags= "@smokeTest")
 public class runner {
 }

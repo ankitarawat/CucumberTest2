@@ -24,6 +24,34 @@ public class stepTest {
        public void thenStatment(){
 
               System.out.println("Then statement executed successfully");
+       }
+              
+      //for sample2.feature
+              
+              
+        @Given("^i am on homepage$")
+              public void givenStatment1(){
+
+                     System.out.println("Given statement executed successfully");
+
+              }
+              @When("^When I open contact page$")
+
+             public void whenStatement1(){
+
+                     System.out.println("When statement execueted successfully");
+
+              }
+
+              @Then("^Then contact page is opened$")
+
+              public void thenStatment1(){
+
+                     System.out.println("Then statement executed successfully");
+                     
+             //for sample2.feature
+              
+              
 
        }
 
