@@ -35,7 +35,7 @@ public class stepTest {
                      System.out.println("Given statement executed successfully");
 
               }
-              @When("^When I open contact page$")
+              @When("^I open contact page$")
 
              public void whenStatement1(){
 
@@ -43,7 +43,7 @@ public class stepTest {
 
               }
 
-              @Then("^Then contact page is opened$")
+              @Then("^contact page is opened$")
 
               public void thenStatment1(){
 
