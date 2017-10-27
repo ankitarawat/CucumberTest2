@@ -31,7 +31,14 @@
 
 </dependencies>
 
-<build>
+
+ <profiles>
+  
+    <profile>
+	
+	 <id>tag-tests</id>
+	<build>
+     
               <plugins>
                      <plugin>
                            <groupId>org.apache.maven.plugins</groupId>
@@ -49,4 +56,14 @@
 
 
 
-</project>
+
+
+ 
+ 
+	  	  
+	  	    </profile>
+	  	      </profiles>
+      		 
+     
+	</project>					  
+						   
